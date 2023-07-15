@@ -1,0 +1,83 @@
+/* Escopo da tabela */
+        .table-border{
+            border-collapse: collapse;
+        }
+
+        .table-border th,
+        .table-border td {
+            border: 1px solid rgb(208, 208, 208);
+            padding: 15px ;
+        }
+
+        #no-border{
+            border: none;
+        }
+    /* Escopo da tabela */
+
+    /* Posicionamento dos elementos */
+    .align-center{
+        text-align: center;
+    }
+
+    .align-start{
+        text-align: start;
+    }
+/* Posicionamento dos elementos */
+
+/* Configurações dos botões */
+    .btn-ciano{
+        background-color:  #7ebff2;
+        border: none;
+        color: white;
+        padding: 12px 35px;
+    }
+    .btn-ciano:hover{
+        background-color:  #3fa3ef;
+    }
+
+    .btn-blue{
+        background-color:  #4a87ec;
+        border: none;
+        color: white;
+        padding: 12px 35px;
+    }
+    .btn-blue:hover{
+        background-color:  #2760b4;
+        border: none;
+        color: white;
+        padding: 12px 35px;
+    }
+
+    .btn-purple{
+        background-color:  #7073ec;
+        border: none;
+        color: white;
+        padding: 12px 35px;
+    }
+    .btn-purple:hover{
+        background-color:  #4e51f3;
+    }
+/* Configurações dos botões */
+
+/* Configurações do preço mensal */
+    .price-ciano{
+        background-color:  #7ebff2;
+        color: white;
+        font-weight: 700;
+        font-size: xx-large;
+    }
+
+    .price-blue{
+        background-color:  #4a87ec;
+        color: white;
+        font-weight: 700;
+        font-size: xx-large;
+    }
+
+    .price-purple{
+        background-color:  #7073ec;
+        color: white;
+        font-weight: 700;
+        font-size: xx-large;
+    }
+/* Configurações do preço mensal */
