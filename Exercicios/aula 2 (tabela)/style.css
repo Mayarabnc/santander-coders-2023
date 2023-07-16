@@ -12,9 +12,9 @@
         #no-border{
             border: none;
         }
-    /* Escopo da tabela */
+/*Fim escopo da tabela */
 
-    /* Posicionamento dos elementos */
+/* Posicionamento dos elementos */
     .align-center{
         text-align: center;
     }
@@ -22,7 +22,7 @@
     .align-start{
         text-align: start;
     }
-/* Posicionamento dos elementos */
+/*Fim posicionamento dos elementos */
 
 /* Configurações dos botões */
     .btn-ciano{
@@ -57,7 +57,7 @@
     .btn-purple:hover{
         background-color:  #4e51f3;
     }
-/* Configurações dos botões */
+/*Fim configurações dos botões */
 
 /* Configurações do preço mensal */
     .price-ciano{
@@ -80,4 +80,4 @@
         font-weight: 700;
         font-size: xx-large;
     }
-/* Configurações do preço mensal */
+/*Fim configurações do preço mensal */
