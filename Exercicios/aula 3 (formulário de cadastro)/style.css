@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(180deg ,#45aaf6, #45aaf6, #45aaf6, green);
+}
+
+main{
+    background-color: white;
+    border: none;
+    width: 300px;
+    padding: 4%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 86px;
+}
+
+.aling-center{
+    text-align: center;
+}
+
+/* Configurações do input */
+
+    label{
+        display: flex;
+        margin-left: 2%;
+    }
+
+    input{
+        background-color: rgb(225, 225, 225);
+        width: 90%;
+        margin-bottom: 9%;
+        border: none;
+        padding: 10px;
+    }
+
+    #termos{
+        display: inline-block;
+        width: 5%;
+        margin-top: 2%;
+        margin-bottom: 10%;
+    }
+
+/* Configurações do input */
+
+/* Configurações do botão */
+
+    .btn-submit{
+        background-color: #385ced;
+        border: none;
+        color: white;
+        border-radius: 10%;
+        padding: 10px 40%;
+    }
+
+/* Configurações do botão */
