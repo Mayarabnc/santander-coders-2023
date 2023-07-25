@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="head">
+        <h1>Cardápio/Catálogo Digital</h1>
+        <p>confira nossos produtos deliciosos!</p>
+    </div>
+
+    <div class="menu">
+        <a href="#catalogo" aria-label="Catálo/Cardápio">Catálogo</a>
+        <a href="#precos" aria-label="Tabela de preços">Tabela de Preços</a>
+        <a href="#cadastro" aria-label="Cadastro">Cadastro</a>
+    </div>
+
+    <div class="fundo" id="catalogo">
+        <h2>Cardápio/Catálogo</h2>
+        <div class="img-cardapio">
+            <img src="../imagens/pizza.png" alt="imagem do produto 1" width="120px">
+            <div class="texto-cardapio">
+                <h3 aria-label="Produto 1">Produto 1</h3>
+                <p aria-label="Descrição">Descrição do Produto 1.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="img-cardapio">
+            <img src="../imagens/pizza.png" alt="imagem do produto 2" width="120px">
+            <div class="texto-cardapio">
+                <h3 aria-label="Produto 2">Produto 2</h3>
+                <p aria-label="Descrição">Descrição do Produto 2.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="img-cardapio">
+            <img src="../imagens/pizza.png" alt="imagem do produto 3" width="120px">
+            <div class="texto-cardapio">
+                <h3 aria-label="Produto 3">Produto 3</h3>
+                <p aria-label="Descrição">Descrição do Produto 3.</p>
+            </div>
+        </div>
+        <hr><div class="img-cardapio">
+            <img src="../imagens/pizza.png" alt="imagem do produto 4" width="120px">
+            <div class="texto-cardapio">
+                <h3 aria-label="Produto 4">Produto 4</h3>
+                <p aria-label="Descrição">Descrição do Produto 4.</p>
+            </div>
+        </div>
+        <hr><div class="img-cardapio">
+            <img src="../imagens/pizza.png" alt="imagem do produto 5" width="120px">
+            <div class="texto-cardapio">
+                <h3 aria-label="Produto 5">Produto 5</h3>
+                <p aria-label="Descrição">Descrição do Produto 5.</p>
+            </div>
+        </div>
+        <hr><div class="img-cardapio">
+            <img src="../imagens/pizza.png" alt="imagem do produto 6" width="120px">
+            <div class="texto-cardapio">
+                <h3 aria-label="Produto 6">Produto 6</h3>
+                <p aria-label="Descrição">Descrição do Produto 6.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="img-cardapio">
+            <img src="../imagens/pizza.png" alt="imagem do produto 7" width="120px">
+            <div class="texto-cardapio">
+                <h3 aria-label="Produto 7">Produto 7</h3>
+                <p aria-label="Descrição">Descrição do Produto 7.</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="fundo" id="precos">
+        <h2 aria-label="Tabela de preços">Tabela de preços </h2>
+      <table class="tabela-border">
+        <thead>
+            <tr class="tabela-fundo align-center">
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody class="align-start">
+            <tr>
+                <td>Produto 1</td>
+                <td>R$10,00</td>
+            </tr>
+            <tr>
+                <td>Produto 2</td>
+                <td>R$15,00</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="fundo" id="cadastro">
+            <h2>Formulário de cadastro</h2>
+            <div id="border-form">
+                <form>
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" name="telefone" id="telefone" required>
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem:</label>                   <textarea name="mensagem" id="mensagem" cols="70" rows="5" required></textarea>
+                    </div>
+                    <button class="btn-enviar" onclick="enviar()">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Cardápio\Catálogo Digital. Todos os direitos reservados.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
