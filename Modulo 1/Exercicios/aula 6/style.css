@@ -1,0 +1,47 @@
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+   display: grid;
+   grid-template-areas: 
+    'cardapio cardapio cardapio cardapio'
+    'navegacao navegacao navegacao navegacao'
+    'conteudo1 conteudo1 conteudo2 conteudo2'
+    'rodape rodape rodape rodape';
+   grid-template-columns: repeat(4, 1fr); /* Repetir 4 vezes 1fr para ter 4 colunas iguais */
+}
+
+.cardapio {
+    grid-area: cardapio;
+    background-color: #4b72ff;
+    padding: 5px;
+}
+
+.navegacao {
+    grid-area: navegacao;
+    background-color: rgb(122, 181, 35);
+    padding: 8px;
+}
+
+.conteudo1 {
+    grid-area: conteudo1;
+    background-color: orange;
+    height: 790px;
+    margin: 3px;
+}
+
+.conteudo2 {
+    grid-area: conteudo2;
+    background-color: orange;
+    height: 790px;
+    margin: 3px;
+}
+
+.rodape {
+    grid-area: rodape;
+    background-color: rgb(26, 26, 146);
+    padding: 10px;
+}
