@@ -1,0 +1,100 @@
+body{
+    margin: 5em;
+    padding: 0;
+    background-color: rgb(206, 206, 206);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.center{
+    margin-left: 43%;
+}
+
+input{
+    border: none;
+    border-radius: 100px 10px;
+    background-color: bisque;
+    margin: 10px;
+    width: 80%;
+    height: 2em;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+select{
+    border: none;
+    margin: 3em 0em;
+    padding: 0.2em;
+    background-color: black;
+    color: white;
+}
+
+.btn-adicionar{
+    border: none;
+    border-radius: 5em;
+    padding: 1em;
+    background-color: rgb(0, 207, 0);
+    font-weight: bold;
+    width: 90%;
+    font-size: 18px;
+    margin: 2em 0em;
+}
+
+.btn-adicionar:hover{
+    background-color: rgb(0, 185, 0);
+}
+
+.btn-editar{
+    border: none;
+    border-radius: 5em;
+    padding: 1em;
+    background-color: rgb(232, 228, 0);
+    font-weight: bold;
+    width: 7em;
+    font-size: 10px;
+    margin: 2em 0em;
+}
+
+.btn-editar:hover{
+    background-color: rgb(214, 210, 0);
+}
+
+.btn-excluir{
+    border: none;
+    border-radius: 5em;
+    padding: 1em;
+    background-color: rgb(207, 21, 0);
+    font-weight: bold;
+    width: 7em;
+    font-size: 10px;
+    margin: 2em 2em;
+}
+
+.btn-excluir:hover{
+    background-color: rgb(173, 18, 1);
+}
+
+.nomeFantasia{
+    font-size: 1.5em;
+}
+
+
+#herois-list {
+    display: inline-block; 
+    width: 48%; 
+    vertical-align: top; 
+    margin-right: 2%; 
+  }
+  
+#viloes-list {
+    display: inline-block; 
+    width: 48%; 
+    vertical-align: top;
+}
+
+#personagens{
+    margin-left: 17em;
+}
+
+#personagens h1{
+    margin-left: 12em;
+}

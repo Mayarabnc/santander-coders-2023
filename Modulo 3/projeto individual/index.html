@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto individual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Adicionar Personagem</h1>
+    <form id="personagem-form">
+        <label for="nomeCivil">Nome Civil:</label>
+        <input type="text" id="nomeCivil"><br>
+        <label for="nomeFantasia">Nome Fantasia:</label>
+        <input type="text" id="nomeFantasia" required><br>
+        <label for="poderes">Poderes:</label>
+        <input type="text" id="poderes"><br>
+        <label for="fraquezas">Fraquezas:</label>
+        <input type="text" id="fraquezas"><br>
+
+        <div class="center">
+            <label for="tipo">Tipo:</label>
+            <select id="tipo" required>
+                <option value="" disabled selected>Selecionar</option>
+                <option value="heroi">Herói</option>
+                <option value="vilao">Vilão</option>
+            </select><br>
+        </div>
+
+        <div id="campos-heroi" style="display: none;">
+            <label for="principalInimigo">Principal Inimigo:</label>
+            <input type="text" id="principalInimigo"><br>
+            <label for="valores">Valores:</label>
+            <input type="text" id="valores"><br>
+            <label for="principalEquipe">Equipe Principal:</label>
+            <input type="text" id="principalEquipe"><br>
+        </div>
+
+        <div id="campos-vilao" style="display: none;">
+            <label for="objetivo">Objetivo:</label>
+            <input type="text" id="objetivo"><br>
+            <label for="motivacao">Motivação:</label>
+            <input type="text" id="motivacao"><br>
+            <label for="principalParceiro">Principal Parceiro:</label>
+            <input type="text" id="principalParceiro"><br>
+        </div>
+
+        <button type="submit" class="btn-adicionar">Adicionar</button>
+    </form>
+    <div id="personagens">
+        <h1>Personagens</h1>
+        <div id="herois-list" class="personagens-column">
+            <h2>Heróis</h2>
+            <ul id="herois-ul"></ul>
+        </div>
+        <div id="viloes-list" class="personagens-column">
+            <h2>Vilões</h2>
+            <ul id="viloes-ul"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
