@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dinossauros</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Lista de Dinossauros</h1>
+    </div>
+    <div class="container">
+        <!-- Formulário para adicionar ou editar dinossauros -->
+        <div class="form-container btext-centertext-centertext-center">
+            <h2 class="text-center">Adicionar/Edita Dinossauro</h2>
+            <form id="dinosaur-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required><br><br>
+
+                <label for="especie">Especie:</label>
+                <input type="text" id="especie" required><br><br>
+
+                <label for="data">Data de existencia:</label>
+                <input type="number" id="data" required><br><br>
+
+                <label for="image">URL da Imagem:</label>
+                <input type="text" id="image" ><br><br>
+              
+                <input type="radio" id="dieta" name="dieta" value="carnivoro">
+                <label for="carnivoro">Carnivoro | </label>
+
+                <input type="radio" id="dieta" name="dieta" value="onivoros">
+                <label for="onivoros">Onívoros | </label>
+
+                <input type="radio" id="dieta" name="dieta" value="herbivoro">
+                <label for="herbivoro">Herbívoro |</label>
+                <br><br>
+              
+                  <button id="submit-button">Adicionar</button>
+              <div class="form-buttons">
+                  <button id="update-button" style="display:none">Atualizar</button>
+                  <button id="cancel-button" style="display: none;">Cancelar</button>
+                </div>
+            </form>
+        </div>
+        <!-- Lista de dinossauros -->
+        <div class="list-container form-container">
+            <h2>Lista de Dinossauros</h2>
+            <button id="delete-all-button" style="display: none;">Chegou o meteoro</button>
+            <ul id="dinosaur-list">
+                <!-- Dinossauros serão adicionados aqui dinamicamente -->
+
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
